@@ -28,7 +28,6 @@ The escalation abuses the `iam:PassRole` permission:
 5. Invoking it performs administrative actions (e.g. attaching
    `AdministratorAccess`), completing the escalation.
 
-*(Architecture diagram to be added.)*
    ![AWS IAM privilege escalation attack path](images/iam-privesc-diagram.png)
 
 ## Prerequisites
